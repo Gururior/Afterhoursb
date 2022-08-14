@@ -1,0 +1,22 @@
+#imagen{
+    height: 70vh;
+    width: 70vh;
+    border: 0;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    position: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.hoverMe{
+  cursor: pointer;
+
+}
+.hoverMe:hover{
+  color: rgb(41, 19, 6);
+  background-color: rgb(76, 20, 167);
+  cursor: pointer;
+  border-radius: 8px;
+}
